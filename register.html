@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>register</title>
+  </head>
+  <body>
+ <h1>Register!</h1>
+ <form>
+ <label for="fn">First Name:</label>
+ <input id="fn" type="text" >
+
+ <label for="ln">Last Name:</label>
+ <input id="ln" type="text" >
+ <p></p>
+ <label for="r1">Male:</label>
+ <input name="choice" id="r1" type="radio" value="male">
+
+ <label for="r2">Female:</label>
+ <input name="choice" id="r2" type="radio" value="female" >
+
+ <label for="r3">Other:</label>
+ <input name="choice" id="r3" type="radio" value="other">
+ <p></p>
+
+ <label for="e">Email:</label>
+ <input id="e" type="email" required>
+
+ <label for="p">Password:</label>
+ <input id="p" type="password" minlength="5" maxlength="10" required>
+
+
+  <h4>Birthday month</h4>
+  <select name="month">
+  <option value="Jan">January</option>
+  <option value="Feb">February</option>
+  <option value="Mar">March</option>
+  </select>
+
+  <label for="term">I agree to the terms and conditions</label>
+  <input id="term" type="checkbox">
+ <p></p>
+ <button>Submit</button>
+  </form>
+
+
+  </body>
+</html>
